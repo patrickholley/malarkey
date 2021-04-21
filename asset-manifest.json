@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/malarkey/static/css/main.994c061a.chunk.css",
+    "main.js": "/malarkey/static/js/main.468e14b1.chunk.js",
+    "main.js.map": "/malarkey/static/js/main.468e14b1.chunk.js.map",
+    "runtime-main.js": "/malarkey/static/js/runtime-main.065d4fa4.js",
+    "runtime-main.js.map": "/malarkey/static/js/runtime-main.065d4fa4.js.map",
+    "static/js/2.8cf9d25f.chunk.js": "/malarkey/static/js/2.8cf9d25f.chunk.js",
+    "static/js/2.8cf9d25f.chunk.js.map": "/malarkey/static/js/2.8cf9d25f.chunk.js.map",
+    "static/js/3.7a7e5adc.chunk.js": "/malarkey/static/js/3.7a7e5adc.chunk.js",
+    "static/js/3.7a7e5adc.chunk.js.map": "/malarkey/static/js/3.7a7e5adc.chunk.js.map",
+    "index.html": "/malarkey/index.html",
+    "static/css/main.994c061a.chunk.css.map": "/malarkey/static/css/main.994c061a.chunk.css.map",
+    "static/js/2.8cf9d25f.chunk.js.LICENSE.txt": "/malarkey/static/js/2.8cf9d25f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.065d4fa4.js",
+    "static/js/2.8cf9d25f.chunk.js",
+    "static/css/main.994c061a.chunk.css",
+    "static/js/main.468e14b1.chunk.js"
+  ]
+}
