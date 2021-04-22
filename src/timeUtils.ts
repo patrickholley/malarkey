@@ -1,5 +1,5 @@
 export function generateCountdown() {
-  const duration = Date.parse("27 May 2021 00:15:00 MST") - Date.now();
+  const duration = Date.parse("27 May 2021 15:00:00 MST") - Date.now();
   const milliseconds = duration % 1000;
   const seconds = Math.floor((duration / 1000) % 60);
   const minutes = Math.floor((duration / (1000 * 60)) % 60);
