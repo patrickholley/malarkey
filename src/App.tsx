@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Button } from "@material-ui/core";
-import "./App.css";
+import { Button, createMuiTheme, MuiThemeProvider } from "@material-ui/core";
 import { getCookie, setCookie } from "./cookieUtils";
 import { generateCountdown } from "./timeUtils";
+import TnImg from "./assets/tn.png";
+import UsImg from "./assets/us.png";
+import UtImg from "./assets/ut.png";
 
 function App() {
   const [isClockedIn, setIsClockedIn] = useState(
@@ -28,17 +30,47 @@ function App() {
     setIsClockedIn(!isClockedIn);
   }
 
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        light: "#fff",
+        main: "#fff",
+        dark: "#fff",
+        contrastText: "#002d65",
+      },
+      secondary: {
+        light: "#002d65",
+        main: "#002d65",
+        dark: "#002d65",
+        contrastText: "#fff",
+      },
+    },
+  });
+
   return (
-    <div className="App">
-      <h1>Operation Malarkey Commences In {countdown}!</h1>
-      <Button
-        variant="contained"
-        color={isClockedIn ? "secondary" : "primary"}
-        onClick={handleClick}
-      >
-        {`Clock ${isClockedIn ? "Out" : "In"}`}
-      </Button>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <div className="app">
+        <h1>Operation Malarkey Commences In {countdown}!</h1>
+        <Button
+          color={isClockedIn ? "secondary" : "primary"}
+          onClick={handleClick}
+          variant="contained"
+        >
+          {`Clock ${isClockedIn ? "Out" : "In"}`}
+        </Button>
+        <div className="progress">
+          <div className="img-wrapper">
+            <img alt="utah" className="ut-img" src={UtImg} />
+          </div>
+          <div className="img-wrapper us-img-wrapper">
+            <img alt="us" className="us-img" src={UsImg} />
+          </div>
+          <div className="img-wrapper">
+            <img alt="tennessee" className="tn-img" src={TnImg} />
+          </div>
+        </div>
+      </div>
+    </MuiThemeProvider>
   );
 }
 
