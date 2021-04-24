@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/malarkey/static/css/main.dde5ab58.chunk.css",
-    "main.js": "/malarkey/static/js/main.166feed2.chunk.js",
-    "main.js.map": "/malarkey/static/js/main.166feed2.chunk.js.map",
-    "runtime-main.js": "/malarkey/static/js/runtime-main.b26b3c83.js",
-    "runtime-main.js.map": "/malarkey/static/js/runtime-main.b26b3c83.js.map",
-    "static/js/2.0f740d7a.chunk.js": "/malarkey/static/js/2.0f740d7a.chunk.js",
-    "static/js/2.0f740d7a.chunk.js.map": "/malarkey/static/js/2.0f740d7a.chunk.js.map",
-    "static/js/3.43380df5.chunk.js": "/malarkey/static/js/3.43380df5.chunk.js",
-    "static/js/3.43380df5.chunk.js.map": "/malarkey/static/js/3.43380df5.chunk.js.map",
+    "main.css": "/malarkey/static/css/main.f3dfaca5.chunk.css",
+    "main.js": "/malarkey/static/js/main.5350c9fb.chunk.js",
+    "main.js.map": "/malarkey/static/js/main.5350c9fb.chunk.js.map",
+    "runtime-main.js": "/malarkey/static/js/runtime-main.a1bf500d.js",
+    "runtime-main.js.map": "/malarkey/static/js/runtime-main.a1bf500d.js.map",
+    "static/js/2.e421d16a.chunk.js": "/malarkey/static/js/2.e421d16a.chunk.js",
+    "static/js/2.e421d16a.chunk.js.map": "/malarkey/static/js/2.e421d16a.chunk.js.map",
+    "static/js/3.bc4eca13.chunk.js": "/malarkey/static/js/3.bc4eca13.chunk.js",
+    "static/js/3.bc4eca13.chunk.js.map": "/malarkey/static/js/3.bc4eca13.chunk.js.map",
     "index.html": "/malarkey/index.html",
-    "static/css/main.dde5ab58.chunk.css.map": "/malarkey/static/css/main.dde5ab58.chunk.css.map",
-    "static/js/2.0f740d7a.chunk.js.LICENSE.txt": "/malarkey/static/js/2.0f740d7a.chunk.js.LICENSE.txt",
+    "static/css/main.f3dfaca5.chunk.css.map": "/malarkey/static/css/main.f3dfaca5.chunk.css.map",
+    "static/js/2.e421d16a.chunk.js.LICENSE.txt": "/malarkey/static/js/2.e421d16a.chunk.js.LICENSE.txt",
     "static/media/tn.60e01db5.png": "/malarkey/static/media/tn.60e01db5.png",
     "static/media/us.120ab838.png": "/malarkey/static/media/us.120ab838.png",
     "static/media/ut.29831225.png": "/malarkey/static/media/ut.29831225.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b26b3c83.js",
-    "static/js/2.0f740d7a.chunk.js",
-    "static/css/main.dde5ab58.chunk.css",
-    "static/js/main.166feed2.chunk.js"
+    "static/js/runtime-main.a1bf500d.js",
+    "static/js/2.e421d16a.chunk.js",
+    "static/css/main.f3dfaca5.chunk.css",
+    "static/js/main.5350c9fb.chunk.js"
   ]
 }
