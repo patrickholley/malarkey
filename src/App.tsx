@@ -15,14 +15,14 @@ function App() {
     getCookie("isClockedIn") === "true"
   ); */
 
-  const beginProgressDate = Date.parse("22 April 2021 16:00:00 MST");
-  const endProgressDate = Date.parse("27 May 2021 16:00:00 MST");
+  const beginProgressDate = Date.parse("18 April 2021 13:00:00 MDT");
+  const endProgressDate = Date.parse("30 May 2021 13:00:00 MDT");
 
-  const calcProgress = useCallback(
-    () =>
-      (Date.now() - beginProgressDate) / (endProgressDate - beginProgressDate),
-    [beginProgressDate, endProgressDate]
-  );
+  const calcProgress = useCallback(() => {
+    const progress =
+      (Date.now() - beginProgressDate) / (endProgressDate - beginProgressDate);
+    return progress > 1 ? 1 : progress;
+  }, [beginProgressDate, endProgressDate]);
 
   const [countdown, setCountdown] = useState(generateCountdown());
   const [progress, setProgress] = useState(calcProgress());
@@ -75,7 +75,9 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <div className="app">
         <img alt="malarkey" className="murphy-img" src={MurphyImg} />
-        <h1>Operation Malarkey Commences In {countdown}!</h1>
+        <h1>
+          Operation Malarkey Complete{countdown !== 0 && ` In ${countdown}`}!
+        </h1>
         {/* <Button
           color={isClockedIn ? "secondary" : "primary"}
           onClick={handleClick}
