@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/malarkey/static/css/main.f3dfaca5.chunk.css",
-    "main.js": "/malarkey/static/js/main.2f10d382.chunk.js",
-    "main.js.map": "/malarkey/static/js/main.2f10d382.chunk.js.map",
+    "main.js": "/malarkey/static/js/main.f2821364.chunk.js",
+    "main.js.map": "/malarkey/static/js/main.f2821364.chunk.js.map",
     "runtime-main.js": "/malarkey/static/js/runtime-main.a1bf500d.js",
     "runtime-main.js.map": "/malarkey/static/js/runtime-main.a1bf500d.js.map",
     "static/js/2.e421d16a.chunk.js": "/malarkey/static/js/2.e421d16a.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.a1bf500d.js",
     "static/js/2.e421d16a.chunk.js",
     "static/css/main.f3dfaca5.chunk.css",
-    "static/js/main.2f10d382.chunk.js"
+    "static/js/main.f2821364.chunk.js"
   ]
 }
