@@ -15,8 +15,8 @@ function App() {
     getCookie("isClockedIn") === "true"
   ); */
 
-  const beginProgressDate = Date.parse("18 April 2021 13:00:00 MDT");
-  const endProgressDate = Date.parse("30 May 2021 13:00:00 MDT");
+  const beginProgressDate = Date.parse("18 April 2021 15:00:00 MDT");
+  const endProgressDate = Date.parse("25 May 2021 15:00:00 MDT");
 
   const calcProgress = useCallback(() => {
     const progress =
