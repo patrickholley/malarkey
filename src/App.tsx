@@ -24,13 +24,15 @@ function App() {
     return progress > 1 ? 1 : progress;
   }, [beginProgressDate, endProgressDate]);
 
-  const [countdown, setCountdown] = useState(generateCountdown());
+  const [countdown, setCountdown] = useState(
+    generateCountdown(endProgressDate)
+  );
   const [progress, setProgress] = useState(calcProgress());
 
   useEffect(
     function () {
       const countdownInterval = setInterval(function () {
-        setCountdown(generateCountdown());
+        setCountdown(generateCountdown(endProgressDate));
         setProgress(calcProgress());
       }, 1000);
 
